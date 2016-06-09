@@ -6,7 +6,7 @@ Integrate Spring Security with Spring Session Redis
 3. Spring Session Data Redis 1.0
 
 
-Setting of spring-security.xml 
+##Setting of spring-security.xml 
 ===============================================
 ``` XML 
 
@@ -22,7 +22,7 @@ Setting of spring-security.xml
 
 ```
 
-Setting of spring-session.xml 
+##Setting of spring-session.xml 
 ===============================================
 1.Default Redis have no authentication (Don't need any username/password).
 2.If your redis server is in the other server, to remember to allow remote connection (iptable and redis config.)
