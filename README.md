@@ -7,7 +7,6 @@ Integrate Spring Security with Spring Session Redis
 
 
 ##Setting of spring-security.xml 
-===============================================
 ``` XML 
 
     <authentication-manager alias="authenticationManager"
@@ -23,10 +22,11 @@ Integrate Spring Security with Spring Session Redis
 ```
 
 ##Setting of spring-session.xml 
-===============================================
 1.Default Redis have no authentication (Don't need any username/password).
+
 2.If your redis server is in the other server, to remember to allow remote connection (iptable and redis config.)
-4.Default port of Redis is 6379.
+
+3.Default port of Redis is 6379.
 ### Setting of redis connection 
 ``` XML
     
